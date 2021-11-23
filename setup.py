@@ -1,14 +1,11 @@
 from distutils.core import setup
 
-with open('requirements/requirements.txt') as f:
-    required = f.read().splitlines()
-
 with open('README.rst') as f:
     long_description = f.read()
 
 setup(
     name='pulemet',
-    version='1.0.1',
+    version='1.1.0',
     license='MIT',
     license_files='LICENSE.txt',
     author='Data Science SWAT',

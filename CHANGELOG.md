@@ -1,3 +1,6 @@
+# 1.1.0
+Remove dependencies.
+
 # 1.0.1
 Requirements file was missing in a package and import bugs fixing.
 
