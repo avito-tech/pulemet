@@ -8,7 +8,7 @@ with open('README.rst') as f:
 
 setup(
     name='pulemet',
-    version='1.0.0',
+    version='1.0.1',
     license='MIT',
     license_files='LICENSE.txt',
     author='Data Science SWAT',

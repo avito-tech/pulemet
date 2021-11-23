@@ -17,7 +17,7 @@ That parameter will prevent creating new connections above the limit if current 
 
  import asyncio
 
-    from pulemet.pulemet import Pulemet
+    from pulemet import Pulemet
 
 
     async def http_request(t: float = 0):
@@ -49,7 +49,7 @@ All of these in following example.
 
     import asyncio
 
-    from pulemet.pulemet import Pulemet
+    from pulemet import Pulemet
 
 
     async def func(ind):
@@ -88,7 +88,7 @@ That example explain how you can see execution progress this tqdm.
 
     from tqdm.auto import tqdm
 
-    from pulemet.pulemet import Pulemet
+    from pulemet import Pulemet
 
 
     async def target(t: float = 0):

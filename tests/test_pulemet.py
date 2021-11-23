@@ -1,7 +1,7 @@
 import asyncio
 from time import monotonic
 
-from pulemet.pulemet import Pulemet
+from pulemet import Pulemet
 
 
 async def target(t: float = 0):
